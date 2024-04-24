@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(72, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #5ce1e6;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-supercell{
+    height: 100px;
+    vertical-align: middle;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.topics{
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: 18%;
+}
+
+.topics:hover{
+    color: orange;
+}
+
+/* Conteudo */
+
+.barra-titulo{
+    width: 100%;
+    display: flex;
+    margin-top: 4%;
+}
+
+.barra-titulo2{
+    width: 50%;
+}
+
+.titulos-barra{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.text-barra{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.empresa-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+.div-socios{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-perfil{
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.div-socios-func {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.funcionarios-1{
+    position: absolute;
+    left: 7%;
+    transform: translateX(-50%);
+    bottom: -30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.funcionarios-2{
+    position: absolute;
+    left: 28%;
+    transform: translateX(-50%);
+    bottom: -30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.funcionarios-3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.funcionarios-4{
+    position: absolute;
+    left: 71%;
+    transform: translateX(-50%);
+    bottom: -30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.funcionarios-5{
+    position: absolute;
+    left: 93%;
+    transform: translateX(-50%);
+    bottom: -30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+/* Creditos */
+
+.credits{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-style: italic;
+    text-decoration: underline;
+}

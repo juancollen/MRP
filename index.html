@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta charset="utf-8">
+    <link rel="icon" href="logo-site.png">
+    <title>MR.P's</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    
+    <header>
+        <div class="cabecalho">
+            <a href="index.html"><img src="logo-site.png" class="logo-supercell"></a>
+            <a href="index.html" class="topics"><h1 class="topics">MR.P'S</h1></a>
+            <a href="sobre.html" class="topics"><h1 class="topics">Sobre a Empresa</h1></a>
+        </div>
+    </header> 
+
+    <!-- Conteudo -->
+    
+    <h1 class="title_prin">MR.P'S</h1>
+    <br><br>
+    <div class="div-pesquisa">
+        <input class="campos" type="text" onclick="mostrarOpcoes()" id="campo-pesquisa" name="campo-pesquisa" placeholder="Jogos..." readonly>
+        <button class="button" id="button-pesquisar" onclick="redirecionarPesquisa()">
+            <img class="lupa" src="Lupa.png">
+        </button>    
+    </div>
+    <div id="opcoes" style="display: none;">
+        <button id="clash-royale" name="clash-royale" onclick="selecionarOpcao('Clash Royale')"><img src="logo-clash-royale-lupa.webp" class="img-barra"></button>
+        <button id="brawl-stars" name="brawl-stars" onclick="selecionarOpcao('Brawl Stars')"><img src="logo-brawl-stars-lupa.webp" class="img-barra"></button>
+        <button id="clash-of-clans" name="clash-of-clans" onclick="selecionarOpcao('Clash of Clans')"><img src="logo-clash-of-clans-lupa.webp" class="img-barra"></button>
+        <button id="squad-busters" name="squad-busters" onclick="selecionarOpcao('Squad Busters')"><img src="logo-squad-busters-lupa.webp" class="img-barra"></button>
+    </div>
+    
+    <!-- Creditos -->
+    <a href="https://www.instagram.com/juan__collen_/" target="widow"><p class="credits">Feito por Collen</p></a>
+</body>
+</html>

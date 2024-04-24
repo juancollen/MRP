@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(72, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #5ce1e6;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-supercell{
+    height: 100px;
+    vertical-align: middle;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.topics{
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: 18%;
+}
+
+.topics:hover{
+    color: orange;
+}
+
+/* Conteudo */
+
+.button-voltar{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.linha-jogo{
+    width: 100%;
+    display: flex;
+}
+
+.linha-jogo2{
+    width: 45%;
+}
+
+.logo-jogo{
+    height: 400px;
+    margin-left: 10%;
+    border-radius: 5%;
+}
+
+.t-lore-jogo{
+    text-align: center;
+    align-items: center;
+}
+
+.lore-jogo{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    margin-top: 7%;
+}
+
+.linha-fds{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: solid 2px;
+}
+
+.titulo-dado{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+
+/* Tabela */
+
+.dados-linha{
+    width: 100%;
+    align-items: center;    
+    display: flex;
+}
+
+.quadrado{
+    background-color: #5ce1e6;
+    border: solid 2px;
+    width: 20%;
+    font-size: 25px;
+}
+
+.retangulo{
+    background-color: black;
+    border: solid 2px;
+    width: 20%;
+    font-size: 25px;
+}
+
+.quadrado2{
+    background-color: #5ce1e6;
+    border: solid 2px;
+    width: 25%;
+    font-size: 25px;
+}
+
+.retangulo2{
+    background-color: black;
+    border: solid 2px;
+    width: 25%;
+    font-size: 25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Creditos */
+
+.credits{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-style: italic;
+    text-decoration: underline;
+}
